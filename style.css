@@ -43,7 +43,7 @@ img {
     justify-content: center;
     gap: 20px;
     height: 100%;
-    max-width: 1020px;
+    max-width: 1000px;
     padding: 20px;
 }
 .item {
@@ -100,7 +100,10 @@ img {
 
 /*Mobile Screen Support*/
 
-@media (max-width: 1020px) {
+@media (max-width: 1056px) {
+    .container {
+        max-width: 900px;
+    }
     .item::before, .item::after {
         display: none;
     }
@@ -116,7 +119,7 @@ img {
     }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1039px) {
 
     /* Item 1 */
     .container .item:first-child::before {
